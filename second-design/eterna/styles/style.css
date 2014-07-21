@@ -1,0 +1,136 @@
+*, *:before, *:after {
+	border: 1px solid red;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width: 960px;
+	color: black;
+}
+
+.logo, .nav {
+	display: inline-block;
+	float: left;
+}
+
+.logo {
+	width: 41%;
+	margin: 0.5% 3% 0 2%;
+}
+
+.logo img {
+	width: 50%;
+}
+
+.nav.first {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.nav {
+	width: 8%;
+	/*doesn't work! use line-height instead!.... height: 82px;*/
+	line-height: 36px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+.main-content {
+	height: 80%;
+	background-image: url('images/background.jpg');
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+}
+
+.profile-pic, .profile-info {
+	float: left;
+	display: block;
+}
+
+.profile-pic img {
+	width: 100%;
+	margin: 0 auto;
+	float: left;
+}
+
+.profile-pic {
+	width: 40%;
+	height: 260px;
+	margin: 3em auto;
+	float: left;
+	clear: both;
+}
+
+.profile-info {
+	width: 54%;
+	height: 260px;
+	float: left;
+	margin: 5% auto 0 auto;
+}
+
+.profile-info h3 {
+	margin: 0 auto;
+	height: 80px;
+}
+
+.profile-info p {
+	display: block;
+}
+
+.features {
+	width: 31%;
+	float: left;
+}
+
+
+.fa-star, .fa-dropbox, .fa-laptop {
+	float: left;
+	color: white;
+	background-color: #f06856;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	padding-top: 6px;
+	padding-left: 10px;
+	font-size: 250%;
+	box-sizing: border-box;
+}
+
+.pricing {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.pricing-main p {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#up-arrow {
+  height: 60px;
+  width: 60px;
+  float: right;
+  color: white;
+  background-color: #f06856;
+  padding-top: 6px;
+  padding-left: 20px;
+  font-size: 250%;
+  box-sizing: border-box;
+}
+
+@media all and (max-width: 70em) {
+	.main-content, .profile-info {
+		float: none;
+		width: 100%;
+		margin: auto;
+	}
+}

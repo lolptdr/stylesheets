@@ -1,0 +1,36 @@
+.nav:hover {
+	color: white;
+	background-color: #e96b56;
+}
+
+.nav {
+	font-size: 0.8em;
+	font-family: 'Lato', sans-serif;
+}
+
+.profile-info {
+	font-family: 'Lato', sans-serif;
+}
+.profile-info h3{
+	font-size: 2em;
+}
+
+.profile-info p {
+	color: #a6a6a6;
+}
+
+.opt {
+	color: #e96b56;
+}
+
+.features {
+	font-family: 'Lato', sans-serif;
+}
+
+.strong {
+	font-weight: bold;
+}
+
+.pricing {
+	font-family: 'Lato', sans-serif;
+}
